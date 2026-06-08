@@ -1,0 +1,9 @@
+# The core engine (reliability.py) and quickstart.py are PURE STANDARD LIBRARY.
+# Nothing here is needed to get a verdict. These are only for reproducing the
+# figures and running the ESM-C sequel apparatus:
+numpy>=1.24
+matplotlib>=3.7
+
+# tcc_esm_swap.py additionally needs a GPU and the EvolutionaryScale `esm` package
+# to run the real model (without them it auto-falls-back to a no-GPU standin):
+#   pip install esm

@@ -1,0 +1,16 @@
+# large / regenerable data - never commit
+variant_summary.txt.gz
+clinvar_variants*.jsonl
+genes_index.json
+esm_sequences.json
+scores_*.jsonl
+done_*.json
+esm_scores*.jsonl
+esm_done*.json
+gnomad*constraint*.tsv
+*.zip
+tcc_ship/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
